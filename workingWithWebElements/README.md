@@ -1,1 +1,1 @@
-## this folder contains selenium java code related to actiond performed on different web elements.
+## this folder contains java code related to actions performed on different web elements using selenium webdriver.
