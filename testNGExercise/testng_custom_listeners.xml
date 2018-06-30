@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Listeners Demo Test Suite">
+<listeners>
+	<listener class-name="testNGExercise.CustomListeners"></listener>
+</listeners>
+<test name = "TC001">
+	<classes>
+		<class name = "testNGExercise.TestNGListenersDemo"></class>
+	</classes>
+</test>
+
+<test name = "TC002">
+	<classes>
+		<class name = "testNGExercise.TestNGListenersDemo2"></class>
+	</classes>
+</test>
+</suite>

@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Regression TestSuit">
+<test name = "Application Test" preserve-order="false">
+	<groups>
+		<define name = "group1">
+			<include name = "add"></include>
+			<include name = "priority1"></include>
+		</define>
+		
+		<define name = "group2">
+			<include name = "string"></include>
+			<include name = "float"></include>
+			<include name = "priority2"></include>
+		</define>
+		
+		<run>
+			<include name = "group1"/>
+			<include name = "group2"/>
+		</run>
+	</groups>
+	<classes>
+		<class name = "testNGExercise.ClassTestNG_1"></class>
+		<class name = "testNGExercise.ClassTestNG_2"></class>
+	</classes>
+</test>
+</suite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Regression TestSuit">
+<test name = "Application Test">
+<parameter name="browser" value="firefox"></parameter>
+<parameter name="platform" value="windows"></parameter>
+<parameter name="response" value="401,404,503"></parameter>
+	<classes>
+		<class name = "testNGExercise.ParametersTestNG"></class>
+	</classes>
+</test>
+</suite>
