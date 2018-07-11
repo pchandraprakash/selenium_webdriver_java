@@ -40,7 +40,7 @@ public class ExcelRead {
 		}
 		//step 8: initialize the sheet object and pass the workbook details to access rows/columns of the individual sheet
 		sheet = book.getSheet(sheetName);
-		//step 9: create an 2D Object array and give the size by specifying the number of rows and column
+		//step 9: create a 2D Object array and give the size by specifying the number of rows and column
 		Object[][] data = new Object[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
 		for (int row = 0; row < sheet.getLastRowNum(); row++) {
 			for (int column = 0; column < sheet.getRow(0).getLastCellNum(); column++) {
